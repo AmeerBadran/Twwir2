@@ -13,12 +13,12 @@ export default function ContactForm() {
     {
       icon: <FaEnvelope className="size-8" />,
       title: "الإيميل",
-      info: "abadran281@gmail.com"
+      info: "twwirps@gmail.com"
     },
     {
       icon: <FaClock className="size-8" />,
       title: "أوقات الدوام",
-      info: "7 أيام - 24/24"
+      info: "7 أيام - 24/7"
     }
   ];
   return (
