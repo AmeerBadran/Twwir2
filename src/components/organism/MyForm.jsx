@@ -1,6 +1,8 @@
 
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
 
 const MyForm = () => {
   const formik = useFormik({
@@ -18,7 +20,23 @@ const MyForm = () => {
       projectDetails: Yup.string().required("أضف بعض التفاصيل"),
     }),
     onSubmit: (values) => {
-      console.log(values);
+      emailjs
+        .send(
+          'service_mubfs0c',
+          'template_xcajtf7',
+          values,              
+          'rVqaFlF2NIt-exij6'
+        )
+        .then(
+          // eslint-disable-next-line no-unused-vars
+          (result) => {
+            toast.success('Message sent successfully!');
+            formik.resetForm();
+          },
+          (error) => {
+            toast.error('Error sending message:', error.text);
+          }
+        );
     },
   });
 
