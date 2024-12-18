@@ -156,7 +156,7 @@ export default function Home() {
           <div className="text-white z-10 flex flex-col justify-center h-full">
             <p className="text-xl font-semibold mb-14">ابدأ تواجدك الرقمي اليوم!</p>
             <p className="text-3xl font-bold mb-4">اطلب موقعك الآن!</p>
-            <p className="text-3xl font-bold text-right tracking-wider" dir="ltr">(+972)569597622</p>
+            <p className="text-3xl font-bold text-right tracking-wider" dir="ltr">(+972)569697622</p>
 
             <a href='https://api.whatsapp.com/send/?phone=972569697622&text&type=phone_number&app_absent=0' target='_blanck' className="flex items-center justify-center w-fit gap-3 h-16 bg-teal-600 hover:bg-teal-800 transition duration-300 ease-in-out rounded-lg mt-10 px-5 shadow-lg">
               <FaWhatsapp className="text-3xl mr-3 text-white" />
