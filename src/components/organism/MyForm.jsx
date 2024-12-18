@@ -9,14 +9,13 @@ const MyForm = () => {
     initialValues: {
       name: "",
       email: "",
-      company: "",
-      budget: "",
+      subject: "",
       projectDetails: "",
     },
     validationSchema: Yup.object({
       name: Yup.string().required("يجب إدخال الإسم"),
       email: Yup.string().email("إيميل غير صحيح").required("يجب إدخال الإيميل"),
-      supject: Yup.string().required("أدخل عنوان للرسالة"),
+      subject: Yup.string().required("أدخل عنوان للرسالة"),
       projectDetails: Yup.string().required("أضف بعض التفاصيل"),
     }),
     onSubmit: (values) => {
@@ -80,20 +79,20 @@ const MyForm = () => {
         </div>
 
         <div>
-          <label htmlFor="supject" className="block font-semibold text-my-color">
+          <label htmlFor="subject" className="block font-semibold text-my-color">
             عنوان الرسالة
           </label>
           <input
-            id="supject"
-            name="supject"
+            id="subject"
+            name="subject"
             type="text"
-            {...formik.getFieldProps("supject")}
+            {...formik.getFieldProps("subject")}
             className={`mt-1 block w-full px-3 py-2 border ${
-              formik.touched.supject && formik.errors.supject ? "border-red-500" : "border-gray-300"
+              formik.touched.subject && formik.errors.subject ? "border-red-500" : "border-gray-300"
             } rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500`}
           />
-          {formik.touched.supject && formik.errors.supject ? (
-            <p className="text-red-500 text-xs mt-1">{formik.errors.supject}</p>
+          {formik.touched.subject && formik.errors.subject ? (
+            <p className="text-red-500 text-xs mt-1">{formik.errors.subject}</p>
           ) : null}
         </div>
 
