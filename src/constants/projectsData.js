@@ -55,7 +55,7 @@ export const projectsData = [
     name: 'HR System',
     imagePc: hrPc,
     imageMop: hrMop,
-    link: '#'
+    link: 'https://ameerbadran.github.io/HR-System/'
   },
   {
     id: 7,
