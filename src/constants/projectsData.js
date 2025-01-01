@@ -22,13 +22,13 @@ export const projectsData = [
     imageMop: skillWaveMop,
     link: 'https://ameerbadran.github.io/SkillWave/'
   },
-  {
-    id: 2,
-    name: 'نظام عيادة طبيب',
-    imagePc: cosPc,
-    imageMop: cosMop,
-    link: 'https://ameerbadran.github.io/test-deploy/'
-  },
+  // {
+  //   id: 2,
+  //   name: 'نظام عيادة طبيب',
+  //   imagePc: cosPc,
+  //   imageMop: cosMop,
+  //   link: 'https://ameerbadran.github.io/test-deploy/'
+  // },
   {
     id: 3,
     name: 'موقع لمركز رياضي',
