@@ -35,7 +35,7 @@ export default function Home() {
             easing="easeInOut"
             className="absolute w-32 right-[10%] -top-20 slg:-top-32 lg:-top-24 hidden slg:block"
           >
-            <img src={shap2} alt="decor" className='' />
+            <img src={shap2} alt="decor"/>
           </BouncingImage>
           <BouncingImage
             animationType="rotate"
