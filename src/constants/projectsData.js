@@ -14,6 +14,8 @@ import hbPc from '../assets/images/projectsImage/hb1.png'
 import hbMop from '../assets/images/projectsImage/hb2.png'
 import noimagePc from '../assets/images/projectsImage/noimage1.jpg'
 import noimageMop from '../assets/images/projectsImage/noimage2.jpg'
+import qasrPc from '../assets/images/projectsImage/qasrPc.png'
+import qasrMop from '../assets/images/projectsImage/qasrMop.png'
 export const projectsData = [
   {
     id: 1,
@@ -22,13 +24,20 @@ export const projectsData = [
     imageMop: skillWaveMop,
     link: 'https://ameerbadran.github.io/SkillWave/'
   },
-  // {
-  //   id: 2,
-  //   name: 'نظام عيادة طبيب',
-  //   imagePc: cosPc,
-  //   imageMop: cosMop,
-  //   link: 'https://ameerbadran.github.io/test-deploy/'
-  // },
+  {
+    id: 2,
+    name: 'نظام عيادة طبيب',
+    imagePc: cosPc,
+    imageMop: cosMop,
+    link: 'https://clinicofficesystem.vercel.app/'
+  },
+  {
+    id: 7,
+    name: 'Full Hotel System',
+    imagePc: qasrPc,
+    imageMop: qasrMop,
+    link: 'https://qasr-al-nakheel-front.onrender.com'
+  },
   {
     id: 3,
     name: 'موقع لمركز رياضي',
@@ -58,7 +67,7 @@ export const projectsData = [
     link: 'https://ameerbadran.github.io/HR-System/'
   },
   {
-    id: 7,
+    id: 8,
     name: 'Dashboard',
     imagePc: dashPc,
     imageMop: dashMop,
